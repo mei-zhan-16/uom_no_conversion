@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "uom_no_conversion",
+    'name': "UOM NO CONVERSION",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Inherit UOM",
 
     'description': """
-Long description of module's purpose
+Inherit UOM from Sale Order Line to Stock Move without unit conversion
     """,
 
-    'author': "My Company",
+    'author': "Phyu Phway",
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
+    'category': 'Customization',
+    'version': '17.0.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['base','sale_management','stock','hr'],
